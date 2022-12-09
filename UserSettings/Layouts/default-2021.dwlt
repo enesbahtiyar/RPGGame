@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 79
+  controlID: 29
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 80
+  controlID: 30
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 81
+  controlID: 31
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -245,8 +245,8 @@ MonoBehaviour:
     y: 0
     width: 256
     height: 947
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -297,8 +297,8 @@ MonoBehaviour:
     y: 0
     width: 377
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -375,11 +375,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 0
+      y: 21
       width: 967
-      height: 602
+      height: 581
     m_Scale: {x: 0.50364584, y: 0.50364584}
-    m_Translation: {x: 483.5, y: 301}
+    m_Translation: {x: 483.5, y: 290.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -387,9 +387,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -960
-      y: -597.6422
+      y: -576.7942
       width: 1920
-      height: 1195.2844
+      height: 1153.5884
     m_MinimalGUI: 1
   m_defaultScale: 0.50364584
   m_LastWindowPixelSize: {x: 967, y: 602}
@@ -623,9 +623,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -9.14732, y: 11.017951, z: -3.119602}
+    m_Target: {x: 5.333643, y: 2.468387, z: -23.226511}
     speed: 2
-    m_Value: {x: -9.14732, y: 11.017951, z: -3.119602}
+    m_Value: {x: 5.333643, y: 2.468387, z: -23.226511}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -672,13 +672,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.20283578, y: -0.71524113, z: 0.24616413, w: -0.6229191}
+    m_Target: {x: -0.01604041, y: -0.9665961, z: 0.1058938, w: -0.23577763}
     speed: 2
-    m_Value: {x: -0.20400277, y: -0.713459, z: 0.24676706, w: -0.6232696}
+    m_Value: {x: -0.016188148, y: -0.96558017, z: 0.10579718, w: -0.23706493}
   m_Size:
     m_Target: 1.004012
     speed: 2
-    m_Value: 0.960777
+    m_Value: 1.004012
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -861,7 +861,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 9412fcff6016fcffbe2cfcffc22cfcffdaf5fcff2ae9ffff94f9ffff26fbfffff0630000c2640000
+      m_ExpandedIDs: a6a7fffff0acffff14bdffff58c4ffff34d6ffff84e1ffff38e6ffffd4e7ffff5ce9fffffeeeffff32efffff26fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -925,7 +925,8 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders: []
+    m_Folders:
+    - Assets/OutsideAssets/StylizedFencesAgustin
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 0
@@ -939,7 +940,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: de620000
     m_LastClickedID: 25310
-    m_ExpandedIDs: 0000000036570000385700003a5700003c5700003e57000040570000425700004457000046570000
+    m_ExpandedIDs: 00000000b25e0000b45e0000b65e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -967,21 +968,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff0000000036570000385700003a570000
+    m_ExpandedIDs: ffffffff00000000b25e0000b65e0000945f0000e06400008a6500008e650000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Cupboard_01
-      m_OriginalName: Cupboard_01
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 24946
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_SearchString: 
@@ -1076,7 +1077,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c262c1329a02fa49b5cb4c297106f3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 136, y: 30}
+  m_MinSize: {x: 133, y: 30}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: ProBuilder
