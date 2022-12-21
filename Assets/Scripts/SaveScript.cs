@@ -11,11 +11,4 @@ public class SaveScript : MonoBehaviour
     {
         DontDestroyOnLoad(this);
     }
-
-    private void Update()
-    {
-        Debug.Log(pName);
-        Debug.Log(pChar);
-        
-    }
 }
