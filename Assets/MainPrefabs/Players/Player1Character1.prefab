@@ -206,6 +206,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7899060302007323969}
     m_Modifications:
+    - target: {fileID: 6783450097774757805, guid: cf7ddc8548d30c344a61f909ecfc368e, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6872937089136136649, guid: cf7ddc8548d30c344a61f909ecfc368e, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -261,6 +265,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6878391779123605251, guid: cf7ddc8548d30c344a61f909ecfc368e, type: 3}
   m_PrefabInstance: {fileID: 8273121940324823758}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &4169523125648932366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3289031200218029517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a03628a68483fe741b25d08e4476bcc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCam: {fileID: 442783716498090638}
 --- !u!195 &8864978596806833957
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -283,19 +300,6 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &4169523125648932366
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3289031200218029517}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a03628a68483fe741b25d08e4476bcc0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerCam: {fileID: 442783716498090638}
 --- !u!4 &3292583553926963975 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6872937089136136649, guid: cf7ddc8548d30c344a61f909ecfc368e, type: 3}
